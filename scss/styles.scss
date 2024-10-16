@@ -1,0 +1,132 @@
+// custom styles\
+.xl-text {
+	font-size: 75px;
+}
+
+.z-3 {
+	z-index: 10;
+}
+
+.navbar {
+	transition: all 0.5s ease-in-out;
+}
+
+.navbar-sticky {
+	background: #fff;
+	opacity: 0.9;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.contactUs:hover {
+	color: #fff !important;
+}
+
+.hero {
+	position: relative;
+	overflow: hidden;
+}
+.hero .row {
+	position: relative;
+	z-index: 10;
+}
+
+.background-decor {
+	position: absolute;
+	top: 100px;
+	left: -170px;
+	width: 500px;
+	opacity: 0.7;
+}
+
+.background-decor-1 {
+	position: absolute;
+	top: 70px;
+	right: -220px;
+	width: 500px;
+	opacity: 0.7;
+}
+
+.background-decor-2 {
+	position: absolute;
+	top: 90px;
+	left: -202px;
+	width: 500px;
+	// opacity: 0.7;
+}
+
+// arrow btn
+.arrow-btn {
+	position: fixed;
+	width: 3.2rem;
+	height: 3.2rem;
+	background-color: #35373af6;
+	right: 20px !important;
+	bottom: 18px;
+	transition: all 0.3s ease-in-out;
+	z-index: 100;
+}
+
+.arrow-btn:hover {
+	background-color: #1d1d21;
+}
+
+// product
+.background-decor-3 {
+	position: absolute;
+	top: 90px;
+	right: -218px;
+	width: 500px;
+}
+
+// projects
+.products {
+	overflow: hidden;
+}
+
+@media (max-width: 992px) {
+	.xl-text {
+		font-size: 50px;
+	}
+
+	.navbar {
+		.btn-outline-secondary {
+			margin-top: 20px;
+		}
+	}
+
+	.hero {
+		margin-top: 0px !important;
+		text-align: center;
+	}
+
+	.hero .text-container {
+		margin-bottom: 30px;
+	}
+
+	.hero .background-decor {
+		left: -100px;
+		width: 250px;
+	}
+
+	.hero .background-decor-1 {
+		right: -100px;
+		width: 250px;
+	}
+
+	.hero .image-container {
+		margin-top: 30px;
+	}
+
+	.services .col-md-4 {
+		border-bottom: 1px #ccc solid;
+		margin: 10px 0;
+	}
+
+	.products {
+		margin-top: 20px !important;
+	}
+
+	.products .background-decor-3 {
+		top: 300px;
+	}
+}
